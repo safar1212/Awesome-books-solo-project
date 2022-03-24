@@ -1,7 +1,8 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-unused-vars */
+
 import Books from './modules/books.js';
-/* eslint-disable no-unused-vars */
 import { navigateTo, menuItems } from './modules/forEachfunction.js';
-/* eslint-disable no-unused-vars */
 
 const booksContainer = document.getElementById('books-container');
 const addBookForm = document.getElementById('add-book');
@@ -52,12 +53,11 @@ addBookForm.addEventListener('submit', (event) => {
 });
 
 const dateDiv = document.querySelector('.date');
-/* eslint-disable no-unused-vars */
+
 const loadDate = () => {
   dateDiv.innerHTML = luxon.DateTime.now().toLocaleString(
     luxon.DateTime.DATETIME_MED_WITH_SECONDS,
   );
 };
-/* eslint-disable no-unused-vars */
 
 setInterval(loadDate, 1000);
