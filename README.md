@@ -27,7 +27,7 @@
 
 ## Live Preview
 
-<!-- -This site was built using [GitHub Pages](https://safar1212.github.io/Awesome-books-solo-project/). -->
+-This site was built using [GitHub Pages](https://safar1212.github.io/Awesome-books-solo-project/).
 
 
 
