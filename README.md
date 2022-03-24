@@ -7,6 +7,9 @@
 
 - HTML, CSS and Javascript
 
+![2022-03-24_14-32-54](https://user-images.githubusercontent.com/78845635/159886511-96d38fa6-5c6f-4f48-b9c6-9f94e2f32486.jpg)
+
+
 
 ## Getting Started
 
@@ -24,7 +27,7 @@
 
 ## Live Preview
 
-<!-- -This site was built using [GitHub Pages](https://safar1212.github.io/Portfolio/). -->
+<!-- -This site was built using [GitHub Pages](https://safar1212.github.io/Awesome-books-solo-project/). -->
 
 
 
