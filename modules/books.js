@@ -7,13 +7,13 @@ export default class Books {
     }
   }
 
-  addBook(book) {
+  addBook = (book) => {
     this.books.push(book);
 
     localStorage.setItem('books', JSON.stringify(this.books));
   }
 
-  removeBook(bookIndex) {
+  removeBook = (bookIndex) => {
     this.books.splice(bookIndex, 1);
 
     localStorage.setItem('books', JSON.stringify(this.books));

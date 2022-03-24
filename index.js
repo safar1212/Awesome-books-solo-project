@@ -1,5 +1,7 @@
 import Books from './modules/books.js';
+/* eslint-disable no-unused-vars */
 import { navigateTo, menuItems } from './modules/forEachfunction.js';
+/* eslint-disable no-unused-vars */
 import { DateTime } from './node_modules/luxon/src/luxon.js';
 
 const booksContainer = document.getElementById('books-container');
@@ -32,7 +34,6 @@ const reload = () => {
     btn.onclick = () => {
       allBooks.removeBook(btn.dataset.id);
       reload();
-    // console.log("button was presses " + btn.dataset.id);
     };
   });
 };
@@ -51,47 +52,6 @@ addBookForm.addEventListener('submit', (event) => {
   reload();
 });
 
-/* eslint-disable no-unused-vars */
-// const removeBook = (bookIndex) => {
-//   allBooks.removeBook(bookIndex);
-//   reload();
-// };
-/* eslint-disable no-unused-vars */
-
-// Adding Navigation using JS
-
-// const sections = document.querySelectorAll('.section');
-
-// let makeActive = (className) => {
-//   sections.forEach((item) => {
-//     if (item.classList.contains(className)) {
-//       item.classList.add('active');
-//     } else {
-//       item.classList.remove('active');
-//     }
-//   });
-// }
-
-// const sections = document.querySelectorAll('.section');
-
-// const menuItems = document.querySelectorAll('.menu-item');
-
-// const navigateTo = (className) => {
-//   sections.forEach((item) => (item.classList.contains(className)
-//  ? item.classList.add('active') : item.classList.remove('active')));
-// };
-
-// menuItems.forEach((menuItem) => {
-//   menuItem.addEventListener('click', () => {
-//     navigateTo(menuItem.dataset.section);
-//   });
-// });
-
-// const loadDate = () => {
-//   const dateDiv = document.querySelector('.date');
-//   dateDiv.innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS,);
-// };
-
 const dateDiv = document.querySelector('.date');
 
 const loadDate = () => {
@@ -101,6 +61,3 @@ const loadDate = () => {
 };
 
 setInterval(loadDate, 1000);
-
-navigateTo();
-menuItems();
