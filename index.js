@@ -1,5 +1,4 @@
 import Books from './modules/books.js';
-import { DateTime } from './node_modules/luxon/src/luxon.js';
 /* eslint-disable no-unused-vars */
 import { navigateTo, menuItems } from './modules/forEachfunction.js';
 /* eslint-disable no-unused-vars */
@@ -53,11 +52,12 @@ addBookForm.addEventListener('submit', (event) => {
 });
 
 const dateDiv = document.querySelector('.date');
-
+/* eslint-disable no-unused-vars */
 const loadDate = () => {
-  dateDiv.innerHTML = DateTime.now().toLocaleString(
-    DateTime.DATETIME_MED_WITH_SECONDS,
+  dateDiv.innerHTML = luxon.DateTime.now().toLocaleString(
+    luxon.DateTime.DATETIME_MED_WITH_SECONDS,
   );
 };
+/* eslint-disable no-unused-vars */
 
 setInterval(loadDate, 1000);
