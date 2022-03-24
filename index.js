@@ -2,7 +2,7 @@ import Books from './modules/books.js';
 /* eslint-disable no-unused-vars */
 import { navigateTo, menuItems } from './modules/forEachfunction.js';
 /* eslint-disable no-unused-vars */
-import { DateTime } from './node_modules/luxon/src/luxon.js';
+
 
 const booksContainer = document.getElementById('books-container');
 const addBookForm = document.getElementById('add-book');
@@ -55,8 +55,8 @@ addBookForm.addEventListener('submit', (event) => {
 const dateDiv = document.querySelector('.date');
 
 const loadDate = () => {
-  dateDiv.innerHTML = DateTime.now().toLocaleString(
-    DateTime.DATETIME_MED_WITH_SECONDS,
+  dateDiv.innerHTML = luxon.DateTime.now().toLocaleString(
+    luxon.DateTime.DATETIME_MED_WITH_SECONDS,
   );
 };
 

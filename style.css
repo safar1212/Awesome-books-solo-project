@@ -20,8 +20,6 @@ header nav {
 nav ul {
   list-style: none;
   display: flex;
-
-  /* gap: 28px; */
   align-items: center;
   font-weight: 600;
 }
