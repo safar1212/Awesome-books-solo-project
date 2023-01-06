@@ -1,6 +1,6 @@
 # Awesome-books-solo-project
 
->This is a a website for storing books along with their author names. This app stores favorite book of people, which they save for later. Moreover, In this app folks can add book's name along with the author. And Can change their list accordingly.
+>This is a website for storing books along with their author names. This app can be used to store favorite books of people. Moreover, In this app folks can add the book's name along with the author. And Can change their list accordingly.
 
 
 ## Built With
